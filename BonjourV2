@@ -1,0 +1,10 @@
+from telnetlib import STATUS
+
+
+def AffichePrenom (prenom,prenom2):
+ 
+   
+    prenom = input("Bonjour , quel est ton prenom ?")
+    prenom2=input("mon prenom ")
+    print(f"Bonjour {prenom} enchanté  , moi c est {prenom2}")
+AffichePrenom("","")
